@@ -1,5 +1,7 @@
 # top-loading-bar-550-bytes
-This is amazing flexible HTML CSS Javascript 20 lines TOP LOADING BAR with different colors. 
+# TOP PRELOADING BAR with html css javascript
+
+This is amazing flexible HTML CSS Javascript 20 lines CODES TOP LOADING BAR with different colors. 
 
 you can change colors and loading times according to your needs. 
 
@@ -25,7 +27,7 @@ Minimum compress size of this code is 550 bytes, so you can add HTML5 CSS3 JAVAS
 
 
 
-paste this code after (BODY start element)
+# paste this code after start (body element)
 ```
 <!-- paste this code after <body> start element -->
 <!-- start preloader -->
@@ -74,7 +76,7 @@ paste this code after (BODY start element)
   
   
 
-compress verson of this code
+# compress verson of preloading top bar code
 ```
 <section id="topbar-preloader">
 <style>#preloader{background-image:linear-gradient(to right,#cc2b5e,#753a88);height:3px;z-index:1000;position:fixed;top:0}</style>
