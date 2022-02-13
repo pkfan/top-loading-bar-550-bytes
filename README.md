@@ -5,7 +5,7 @@ This is amazing flexible HTML CSS Javascript 20 lines CODES TOP LOADING BAR with
 
 you can change colors and loading times according to your needs. 
 
-Top loading bar will disapear after page fully loaded to windows.
+Top loading bar will disapear after page fully loaded to browser windows.
 
 Default time is 2 second, but if page is loaded before 2 second, top load bar will diappear.
 
