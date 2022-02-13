@@ -1,0 +1,44 @@
+<!-- past this code after <body> start element -->
+<!-- start preloader -->
+<section id="topbar-preloader">
+    <style>
+        #preloader{
+            /* change color of preloader bar according to your needs */
+            /* background-image:linear-gradient(to right,#9CECFB,#65C7F7,#0052D4); */
+            background-image:linear-gradient(to right,#cc2b5e,#753a88);
+
+            height: 3px;
+            z-index: 1000; 
+            position: fixed; 
+            top: 0;        
+        }
+    </style>
+    <div id="preloader">
+    </div>
+    <!-- preload script -->
+    <script>
+        let preloaderBar = document.querySelector('#preloader');
+        let idForIntervalCleaning = setInterval(incrementWidth, 20); //  20*100=2000 mili second or 2 second
+        let width = 0;
+
+        // increment function
+        function incrementWidth(){
+            if (width >= 90) {
+                clearInterval(idForIntervalCleaning);
+            } 
+    else {
+                width++; 
+                preloaderBar.style.width = width+"%";
+            }
+        }
+
+        window.addEventListener('load', () => {
+            
+                preloaderBar.style.display = "none";
+                clearInterval(idForIntervalCleaning);
+        });
+    </script>
+</section>
+<!-- end preloader -->
+
+
